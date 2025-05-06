@@ -1,0 +1,15 @@
+spring:
+ application:
+  name: consumer-service
+ rabbitmq:
+  host: localhost
+  port: 5672
+  username: guest
+  password: guest
+  queue: my-queue
+  exchange: my-exchange
+server:
+ port: 8081
+logging:
+level:
+ org: ERROR
